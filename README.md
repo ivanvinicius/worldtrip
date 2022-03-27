@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top" align="center">
+  <div>
+    <img src="github/images/worldtrip-logo.png" alt="Logo">
+  </div>
+  <h4 align="center">worldtrip | Mobile first interface created using using Next.js and ChakraUi</h4>
+</div>
 
-## Getting Started
+## Resumo
 
-First, run the development server:
+  <ol>
+    <li><a href="#visão-geral-do-projeto">Visão geral do projeto</a></li>
+    <li><a href="#sobre-o-projeto">Sobre o projeto</a></li>
+    <li><a href="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
+    <li><a href="#instalação-e-utilização">Instalação e utilização</a></li>
+    <li><a href="#licença">Licença</a></li>
+    <li><a href="#agradecimentos">Agradecimentos</a></li>
+  </ol>
 
-```bash
-npm run dev
-# or
-yarn dev
+## Visão geral do projeto
+
+<div>
+  <h3 >
+    <img src="github/images/figma-logo.png" alt="Logo" width="18" height="18">
+    <a href="https://www.figma.com/file/8QAkMs3BddatXn2fFseyu4/Desafio-1-M%C3%B3dulo-4-ReactJS/duplicate?node-id=0%3A1">Layout no Figma</a>
+  </h3>
+</div>
+
+<div align="center">
+  <img src="github/images/worldtrip-home-mobile.png" alt="Home mobile">  
+  <img src="github/images/worldtrip-home.png" alt="Home">  
+  <img src="github/images/worldtrip-continent.png" alt="Continent page">  
+</div>
+
+## Sobre o projeto
+
+World Trip é uma aplicação que oferece informações detalhadas sobres os mais diversos destinos ao redor do globo. Escolha
+um pais, encontre atividades e planege sua viagem como nunca. Aplicando boas práticas para o desenvolvimento de interfaces 
+focadas em dispositivos móveis de tela pequena, e tornando o mesmo adaptável para telas maiores em desktops. Toda a interface
+foi construida usando ChakraUI, pensando na usabilidade e responsividade, entregando ao usuário uma experiência simples e agradável. 
+
+## Tecnologias utilizadas
+
+As principais tecnologias utilizadas na construção deste projeto foram: 
+
+* [Next.js](https://nextjs.org/)
+* [Chakra UI](https://chakra-ui.com/guides/getting-started/nextjs-guide)
+* [Swiper](https://swiperjs.com/react)
+
+## Instalação e utilização
+
+Instruções de instalação do projeto em seu computador.
+
+### Pré-requisitos
+
+Clone este repositório utilizando o comando a seguir. Lembre-se, você deve possuir a CLI do git instalada em seu computador.
+
+```sh
+git clone https://github.com/ivanvinicius/worldtrip.git
 ```
+Para que seja possível fazer o download das depêdencias do projeto, recomendamos a utilização de um package mananger:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* [Yarn (Recomendado para este projeto)](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
+* [Npm](https://nodejs.org/en/)
+  
+### Instalação
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Dentro da pasta do projeto, rode o comando ```yarn``` para fazendo o download da depêndencias.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. Rode o comando ```yarn dev``` para executar o projeto em seu localhost:3000.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Licença
 
-## Learn More
+ O projeto ainda não contém nenhuma licença. ⚠️
 
-To learn more about Next.js, take a look at the following resources:
+## Agradecimentos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Rocketseat Education - Boosting People.](https://www.rocketseat.com.br/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br/>
+<h4 align="center"><a href="#top">Voltar ao Início</a></h4>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">"Estabilidade não existe" - Flavio Augusto</p>
