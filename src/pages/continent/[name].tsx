@@ -1,10 +1,16 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 
+import { NextHead } from '../../components/NextHead'
+
 export function Continent() {
   return (
-    <div>
-      <h1>Continent</h1>
-    </div>
+    <>
+      <NextHead title="Europe" />
+
+      <div>
+        <h1>Continent</h1>
+      </div>
+    </>
   )
 }
 
