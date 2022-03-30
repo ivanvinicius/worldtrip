@@ -9,7 +9,7 @@ export function Header() {
       align="center"
       justify="center"
       borderBottom="1px"
-      borderBottomColor="border"
+      borderBottomColor="gray.200"
     >
       <Link href="/">
         <Image

@@ -18,8 +18,7 @@ export const theme = extendTheme({
 
     black: '#000000',
     white: '#FFFFFF',
-    fog: '#DADADA',
-    border: '#EBEBEB'
+    fog: '#DADADA'
   },
 
   fonts: {
