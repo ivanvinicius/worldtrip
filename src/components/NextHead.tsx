@@ -7,7 +7,7 @@ interface NextHeadProps {
 export function NextHead({ title }: NextHeadProps) {
   return (
     <Head>
-      <title>worldtrip | {title}</title>
+      <title>Worldtrip | {title}</title>
     </Head>
   )
 }

@@ -13,6 +13,7 @@ export const theme = extendTheme({
   colors: {
     background: '#F5F8FA',
     heading: '#FFBA08',
+    headingOpaque: 'rgba(255, 186, 8, 0.1);',
     text: '#47585B',
     info: '#999999',
 

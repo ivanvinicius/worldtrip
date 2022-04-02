@@ -1,27 +1,14 @@
-import Link from 'next/link'
-import { Flex, Image } from '@chakra-ui/react'
+import { Center, Image } from '@chakra-ui/react'
 
 export function Header() {
   return (
-    <Flex
-      as="header"
-      p="5"
-      align="center"
-      justify="center"
-      borderBottom="1px"
-      borderBottomColor="gray.200"
-    >
-      <Link href="/">
-        <Image
-          src="/images/logo.svg"
-          alt="logo"
-          objectFit="cover"
-          w="5rem"
-          h="1.25rem"
-          transition={'filter 0.3s'}
-          _hover={{ filter: 'brightness(0.8)' }}
-        />
-      </Link>
-    </Flex>
+    <Center w="100%" maxW="1240px" m="0 auto" p={['4', '7']}>
+      <Image
+        src="/images/logo.svg"
+        alt="logo"
+        w={['81px', '184px']}
+        h={['20px', '45px']}
+      />
+    </Center>
   )
 }
